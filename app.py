@@ -12,7 +12,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 # Configuramos a Algebrín
 instrucciones = "Sos Algebrín, tutor de Álgebra. Usá el método socrático y NUNCA des la respuesta final..."
 modelo = genai.GenerativeModel(
-    model_name='gemini-1.5-flash',
+    model_name='gemini-3-flash-preview',
     system_instruction=instrucciones
 )
 
