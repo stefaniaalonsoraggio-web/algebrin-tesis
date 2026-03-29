@@ -11,7 +11,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 @st.cache_resource
 def cargar_guias():
     # ACA PONÉ LOS NOMBRES EXACTOS DE TUS ARCHIVOS COMO ESTÁN EN GITHUB
-    mis_guias = ["tp_vectores.pdf", "tp_matrices.pdf"] 
+    mis_guias = ["Demostraciones y Teoremas.pdf", "Final Álgebra 12-7-23.pdf", "Final Álgebra 6-12-23.pdf","Primer parcial 1C.pdf","Primer parcial 2C.pdf","Recuperatorio del primer parcial 1C.pdf","Recuperatorio del primer parcial 2C.pdf","Segunda fecha de final 2C.pdf","Segundo parcial 2C.pdf","Trabajo práctico determinantes.pdf","Trabajo práctico diagonalización.pdf","Trabajo práctico estructuras algebraicas.pdf","Trabajo práctico números complejos.pdf","Trabajo práctico polinomios.pdf","Trabajo práctico sistemas de ecuaciones lineales.pdf","Trabajo práctico sistemas de espacios vectoriales.pdf","Trabajo práctico vectores y matrices reales.pdf"]
     
     archivos_listos = []
     for archivo in mis_guias:
