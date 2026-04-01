@@ -28,7 +28,7 @@ documentos_ia = cargar_guias()
 
 instrucciones = "Sos Algebrín, tutor de Álgebra. Usá el método socrático y NUNCA des la respuesta final..."
 modelo = genai.GenerativeModel(
-    model_name='gemini-3.1-pro-preview', # O el flash si preferís por los límites
+    model_name='gemini-3-flash-preview', # O el flash si preferís por los límites
     system_instruction=instrucciones
 )
 
